@@ -26,3 +26,6 @@ p{
 .blog-post{
     border-bottom: 1px solid #ccc;
 }
+article{
+    border-bottom: 1px solid #000;
+}
