@@ -10,6 +10,40 @@ body{
     background: #fff;
 }
 
+.sticky-navbar{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+.sticky-navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.sticky-navbar a {
+    text-decoration: none;  
+    color: #fff;
+}
+
+.sticky-navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    background-color: #333;
+    z-index:100; 
+}
+
+.sticky-navbar.sticky {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sticky-navbar u1 { 
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+}
+
 h1{
 font-size: 3em;
 margin: 0;
@@ -28,4 +62,23 @@ p{
 }
 article{
     border-bottom: 1px solid #000;
+}
+
+form {
+    display: flex;
+}
+
+.image-container{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.image-container img {
+    max-width: 100%;
+}
+
+.image-caption{
+    clear: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
 }
